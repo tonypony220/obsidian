@@ -1,0 +1,10 @@
+# Obsidian служебное — 122MB плагинов/тем, у каждого устройства свой набор.
+# Исключено целиком: иначе Mac и iOS дерутся за community-plugins.json при pull.
+.obsidian/
+.trash/
+
+# per-machine
+.claude/settings.local.json
+
+# system
+.DS_Store
