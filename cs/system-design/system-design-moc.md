@@ -62,6 +62,10 @@ System Design = принятие решений о структуре систе
 - [[connection-state-cost]] — что жрёт одно WebSocket-соединение (FD, kernel buffers, user state)
 - [[fan-out-on-write-vs-read]] — модель доставки для групп/каналов; точка перелома
 
+## Media / streaming
+
+- [[video-codec]] — intra/inter compression: почему 4K-стрим ~1000× меньше raw; кодек vs контейнер vs протокол
+
 ## Соседние MOC
 
 - [[test-strategy-moc]] — как верифицировать дизайн (Walking Skeleton, coverage matrix)

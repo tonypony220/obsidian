@@ -7,7 +7,9 @@ date: 2026-04-12
 # CDN Caching
 
 moc: [[networking-moc]]
-next: [[edge-vs-cdn]]
+next:
+- [[edge-vs-cdn]]
+- [[video-codec]]
 
 ---
 
