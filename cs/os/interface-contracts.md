@@ -11,6 +11,7 @@ next:
 - [[multiboot]]
 - [[buses-and-controllers]]
 - [[elf-format]]
+- [[c-module-pattern]]
 
 ---
 
