@@ -8,6 +8,8 @@ date: 2026-07-25
 
 moc: [[os-moc]]
 back: [[memory-mapped-io]]
+next:
+- [[bios-vs-uefi]]
 
 ---
 

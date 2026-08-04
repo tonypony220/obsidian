@@ -11,6 +11,7 @@ back: [[boot-process]]
 next:
 - [[protected-mode]]
 - [[linker-script]]
+- [[el-torito]]
 
 ---
 
