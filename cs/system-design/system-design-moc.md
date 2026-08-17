@@ -23,6 +23,7 @@ System Design = принятие решений о структуре систе
 
 - [[module-organization-patterns]] — Layered / Vertical Slice / Modular Monolith — как нарезать саму кодовую базу
 - [[hex-architecture]] — Ports & Adapters: домен в центре, IO на границе
+- [[driving-vs-driven-ports]] — интерфейс нужен только против runtime-стрелки (driven-сторона); driving-порт = сигнатура функции
 - [[clean-architecture]] — Hex + явный слой Use Cases (entities vs application scenarios)
 - [[functional-core-imperative-shell]] — дисциплина: домен = чистые функции, IO снаружи
 - [[use-cases-as-named-operations]] — сценарии как отдельные классы, не ветки `if kind===`

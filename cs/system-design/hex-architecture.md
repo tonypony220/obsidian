@@ -8,6 +8,7 @@ date: 2026-06-07
 
 back: [[architecture-stack]]
 next:
+- [[driving-vs-driven-ports]]
 - [[seam]]
 - [[clean-architecture]]
 - [[functional-core-imperative-shell]]
@@ -107,6 +108,8 @@ grep -r "from 'next'"   domain/    → пусто
 ```
 
 Если что-то находится — утечка, домен прибит к технологии. Стрелка импорта `StripeGateway → PaymentGateway` идёт снаружи внутрь — это и есть **Dependency Inversion**.
+
+Тонкость: инверсия (и interface) нужна только на driven-стороне — где домен зовёт внешний мир. На driving-стороне (HTTP → домен) портом служит сама сигнатура функции — [[driving-vs-driven-ports]].
 
 ## DI как механизм
 
