@@ -47,6 +47,12 @@ System Design = принятие решений о структуре систе
 
 - [[graphql]] — как работает и зачем нужен
 
+## Traffic control
+
+- [[sliding-window-rate-check]] — «≤ K в любом окне W» за O(1)/событие: сравнение с таймстемпом K назад
+- [[rate-limiter-algorithms]] — семейство: log/ring/buckets (точные) vs fixed window/token bucket (O(1), приближение)
+- [[counters-vs-events]] — почему Prometheus-counter не ловит burst: агрегация теряет информацию
+
 ## Storage layer
 
 - [[lsm-tree]] — append-only движок хранения: memtable → SSTable → compaction; ортогонален модели данных (SQL/NoSQL); полный write/read path с примерами
