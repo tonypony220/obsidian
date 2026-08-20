@@ -25,7 +25,7 @@ Client ──▶│ API Gateway │──▶ User Service
 
 - **Маршрутизация** — `/users` → User Service, `/orders` → Order Service
 - **Аутентификация** — проверка токенов в одном месте
-- **Rate limiting** — ограничение запросов по API key
+- **Rate limiting** — ограничение запросов по API key → алгоритмы: [[rate-limiter-algorithms]]
 - **Агрегация** — один запрос клиента → несколько вызовов к сервисам → один ответ
 - **Трансформация** — преобразование протоколов (REST → gRPC)
 
