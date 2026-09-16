@@ -7,7 +7,11 @@ date: 2026-04-10
 # Recall
 
 moc: [[ml-moc]]
-next: [[fn-rate]] [[f1-score]] [[confusion-matrix]]
+next:
+- [[fn-rate]]
+- [[f1-score]]
+- [[confusion-matrix]]
+- [[hnsw-index]]
 
 ---
 
