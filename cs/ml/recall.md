@@ -12,6 +12,7 @@ next:
 - [[f1-score]]
 - [[confusion-matrix]]
 - [[hnsw-index]]
+- [[ivf-index]]
 
 ---
 

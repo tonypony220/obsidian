@@ -7,7 +7,10 @@ date: 2026-04-10
 # Центроид
 
 moc: [[ml-moc]]
-next: [[differential-score]] [[logistic-regression]]
+next:
+- [[differential-score]]
+- [[logistic-regression]]
+- [[ivf-index]]
 
 ---
 
