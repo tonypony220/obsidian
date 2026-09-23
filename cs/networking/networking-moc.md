@@ -41,6 +41,10 @@ date: 2026-04-12
 
 - [[dhcp]] — автоматическое получение IP, DORA, lease
 
+## Диагностика
+
+- [[macos-network-diagnostics]] — маршрут, ARP, ICMP, DNS и HTTP на macOS
+
 ## Linux virtual networking
 
 - [[linux-virtual-network-devices]] — обзор: veth, bridge, tun/tap, vxlan

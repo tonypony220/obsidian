@@ -13,7 +13,10 @@ date: 2026-04-12
 
 moc: [[l3-routing-moc]]
 back: [[packet-forwarding]]
-next: [[packet-forwarding]], [[l3-routing-moc]]
+next:
+- [[packet-forwarding]]
+- [[l3-routing-moc]]
+- [[macos-network-diagnostics]]
 
 ---
 

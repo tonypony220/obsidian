@@ -11,6 +11,7 @@ back: [[l2-vs-l3]]
 next:
 - [[arp]]
 - [[ip-multicast]]
+- [[macos-network-diagnostics]]
 
 ---
 

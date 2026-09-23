@@ -8,7 +8,11 @@ date: 2026-04-15
 
 moc: [[networking-moc]]
 back: [[l2-vs-l3]]
-next: [[bum-traffic]] [[linux-bridge]] [[vxlan]]
+next:
+- [[bum-traffic]]
+- [[linux-bridge]]
+- [[vxlan]]
+- [[macos-network-diagnostics]]
 
 ---
 
