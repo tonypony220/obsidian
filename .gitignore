@@ -1,7 +1,7 @@
-# Obsidian служебное — 122MB плагинов/тем, у каждого устройства свой набор.
-# Исключено целиком: иначе Mac и iOS дерутся за community-plugins.json при pull.
-.obsidian/
-.trash/
+# Obsidian служебное — плагины/темы и настройки устройств не входят в Git.
+# Google Drive/AirSync могут синхронизировать их независимо от Git.
+vault/.obsidian/
+vault/.trash/
 
 # per-machine
 .claude/settings.local.json
