@@ -7,7 +7,11 @@ date: 2026-04-10
 # F1 score
 
 moc: [[ml-moc]]
-next: [[recall]] [[fn-rate]]
+next:
+- [[recall]]
+- [[fn-rate]]
+- [[precision]]
+- [[accuracy-paradox]]
 
 ---
 

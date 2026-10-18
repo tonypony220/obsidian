@@ -7,7 +7,12 @@ date: 2026-04-10
 # LLM vs эмбеддинги для классификации
 
 moc: [[ml-moc]]
-next: [[centroid]] [[logistic-regression]]
+next:
+- [[centroid]]
+- [[logistic-regression]]
+- [[text-classification]]
+- [[embeddings]]
+- [[prompting-vs-rag-vs-finetuning]]
 
 ---
 

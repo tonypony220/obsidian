@@ -7,7 +7,12 @@ date: 2026-04-10
 # Confusion matrix
 
 moc: [[ml-moc]]
-next: [[recall]] [[fn-rate]] [[f1-score]]
+next:
+- [[recall]]
+- [[fn-rate]]
+- [[f1-score]]
+- [[precision]]
+- [[accuracy-paradox]]
 
 ---
 

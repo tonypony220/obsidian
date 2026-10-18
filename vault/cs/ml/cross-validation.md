@@ -7,7 +7,12 @@ date: 2026-04-12
 # Cross-validation
 
 moc: [[ml-moc]]
-next: [[stratified-split]] [[lambda-regularization]] [[f1-score]]
+next:
+- [[stratified-split]]
+- [[lambda-regularization]]
+- [[f1-score]]
+- [[train-val-test-split]]
+- [[data-leakage]]
 
 ---
 

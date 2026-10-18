@@ -7,7 +7,10 @@ date: 2026-04-10
 # Стратифицированный сплит
 
 moc: [[ml-moc]]
-next: [[centroid]] [[threshold-sweep]]
+next:
+- [[centroid]]
+- [[threshold-sweep]]
+- [[train-val-test-split]]
 
 ---
 

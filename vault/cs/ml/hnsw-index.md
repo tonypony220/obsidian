@@ -10,6 +10,8 @@ moc: [[ml-moc]]
 next:
 - [[ivf-index]]
 - [[recall]]
+- [[semantic-search]]
+- [[embeddings]]
 
 ---
 
