@@ -30,6 +30,10 @@ date: 2026-04-12
 - [[tokenization]] — текст в токены
 - [[transformers]] — attention и генерация
 - [[context-window]] — лимит видимого модели
+- [[model-parameters]] — веса, размер модели, память
+- [[quantization]] — те же веса меньшим числом бит
+- [[quantization-number-errors]] — почему страдают числа и даты
+- [[moe-mixture-of-experts]] — хранится всё, считается часть
 - [[prompting-vs-rag-vs-finetuning]] — три способа дать знания и поведение
 - [[information-extraction]] — сущности и структурированные данные
 

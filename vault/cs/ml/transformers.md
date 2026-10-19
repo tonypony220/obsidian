@@ -12,6 +12,7 @@ next:
 - [[context-window]]
 - [[embeddings]]
 - [[prompting-vs-rag-vs-finetuning]]
+- [[model-parameters]]
 
 ---
 
