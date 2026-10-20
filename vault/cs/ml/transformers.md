@@ -9,6 +9,7 @@ date: 2026-10-18
 moc: [[ml-moc]]
 back: [[tokenization]]
 next:
+- [[optical-context-compression]]
 - [[context-window]]
 - [[embeddings]]
 - [[prompting-vs-rag-vs-finetuning]]

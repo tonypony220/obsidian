@@ -30,6 +30,7 @@ date: 2026-04-12
 - [[tokenization]] — текст в токены
 - [[transformers]] — attention и генерация
 - [[context-window]] — лимит видимого модели
+- [[optical-context-compression]] — сжатие текста через изображение; исследовательский подход
 - [[model-parameters]] — веса, размер модели, память
 - [[quantization]] — те же веса меньшим числом бит
 - [[quantization-number-errors]] — почему страдают числа и даты

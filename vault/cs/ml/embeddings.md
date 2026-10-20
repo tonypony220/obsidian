@@ -9,6 +9,7 @@ date: 2026-10-18
 moc: [[ml-moc]]
 back: [[tokenization]]
 next:
+- [[optical-context-compression]]
 - [[semantic-search]]
 - [[centroid]]
 - [[text-classification]]

@@ -9,6 +9,7 @@ date: 2026-10-18
 moc: [[ml-moc]]
 back: [[transformers]]
 next:
+- [[optical-context-compression]]
 - [[tokenization]]
 - [[prompting-vs-rag-vs-finetuning]]
 - [[semantic-search]]
