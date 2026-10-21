@@ -6,6 +6,9 @@ date: 2026-09-21
 
 # Monthly Active Users
 
+next:
+- [[loyalty-loop]]
+
 ---
 
 ```text

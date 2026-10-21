@@ -6,6 +6,10 @@ date: 2026-09-21
 
 # Customer Journey Map
 
+next:
+- [[loyalty-loop-vs-involvement-spiral]]
+- [[loyalty-loop]]
+
 ---
 
 ```text
