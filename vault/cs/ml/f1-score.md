@@ -10,8 +10,6 @@ moc: [[ml-moc]]
 next:
 - [[recall]]
 - [[fn-rate]]
-- [[precision]]
-- [[accuracy-paradox]]
 
 ---
 

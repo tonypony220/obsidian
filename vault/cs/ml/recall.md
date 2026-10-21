@@ -12,7 +12,6 @@ next:
 - [[f1-score]]
 - [[confusion-matrix]]
 - [[hnsw-index]]
-- [[precision]]
 - [[ivf-index]]
 
 ---

@@ -7,11 +7,9 @@ date: 2026-10-19
 # Параметры модели
 
 moc: [[ml-moc]]
-back: [[transformers]]
 next:
 - [[quantization]]
 - [[moe-mixture-of-experts]]
-- [[context-window]]
 
 ---
 

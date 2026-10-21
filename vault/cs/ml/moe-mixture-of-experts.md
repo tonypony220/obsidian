@@ -10,7 +10,6 @@ moc: [[ml-moc]]
 back: [[model-parameters]]
 next:
 - [[quantization]]
-- [[transformers]]
 
 ---
 

@@ -11,8 +11,6 @@ next:
 - [[stratified-split]]
 - [[lambda-regularization]]
 - [[f1-score]]
-- [[train-val-test-split]]
-- [[data-leakage]]
 
 ---
 

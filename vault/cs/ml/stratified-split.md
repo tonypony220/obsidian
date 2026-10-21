@@ -10,7 +10,6 @@ moc: [[ml-moc]]
 next:
 - [[centroid]]
 - [[threshold-sweep]]
-- [[train-val-test-split]]
 
 ---
 

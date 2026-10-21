@@ -11,8 +11,6 @@ next:
 - [[recall]]
 - [[fn-rate]]
 - [[f1-score]]
-- [[precision]]
-- [[accuracy-paradox]]
 
 ---
 

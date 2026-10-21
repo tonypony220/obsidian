@@ -10,9 +10,6 @@ moc: [[ml-moc]]
 next:
 - [[centroid]]
 - [[logistic-regression]]
-- [[text-classification]]
-- [[embeddings]]
-- [[prompting-vs-rag-vs-finetuning]]
 
 ---
 

@@ -13,9 +13,6 @@ date: 2026-04-12
 ## Основы
 
 - [[ml-task-types]] — классификация, регрессия, кластеризация
-- [[train-val-test-split]] — три выборки и честная оценка
-- [[overfitting]] — выучил шум вместо закономерности
-- [[data-leakage]] — информация из будущего в обучении
 
 ## Классификация
 
@@ -23,25 +20,17 @@ date: 2026-04-12
 - [[svm]] — Support Vector Machine, максимизация отступа
 - [[random-forest]] — ансамбль деревьев решений
 - [[llm-vs-embeddings-classification]] — когда LLM, когда эмбеддинги
-- [[text-classification]] — классификация текста: TF-IDF, эмбеддинги, LLM
 
 ## NLP и LLM
 
-- [[tokenization]] — текст в токены
-- [[transformers]] — attention и генерация
-- [[context-window]] — лимит видимого модели
 - [[optical-context-compression]] — сжатие текста через изображение; исследовательский подход
 - [[model-parameters]] — веса, размер модели, память
 - [[quantization]] — те же веса меньшим числом бит
 - [[quantization-number-errors]] — почему страдают числа и даты
 - [[moe-mixture-of-experts]] — хранится всё, считается часть
-- [[prompting-vs-rag-vs-finetuning]] — три способа дать знания и поведение
-- [[information-extraction]] — сущности и структурированные данные
 
 ## Эмбеддинги и скоры
 
-- [[embeddings]] — вектор смысла
-- [[semantic-search]] — поиск по смыслу
 - [[centroid]] — среднее представление класса в пространстве эмбеддингов
 - [[hnsw-index]] — многослойный граф для приближённого поиска соседей
 - [[ivf-index]] — кластерный индекс с поиском по выбранным спискам
@@ -54,9 +43,7 @@ date: 2026-04-12
 - [[confusion-matrix]] — таблица TP/FP/TN/FN
 - [[recall]] — доля найденных положительных
 - [[fn-rate]] — доля пропущенных положительных
-- [[precision]] — доля верных среди срабатываний
 - [[f1-score]] — гармоническое среднее precision и recall
-- [[accuracy-paradox]] — почему accuracy обманывает при дисбалансе
 
 ## Обучение
 
