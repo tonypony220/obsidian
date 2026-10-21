@@ -7,6 +7,7 @@ date: 2026-04-10
 # Логистическая регрессия
 
 moc: [[ml-moc]]
+back: [[linear-regression]]
 next: [[svm]] [[random-forest]] [[centroid]] [[confusion-matrix]] [[score-distribution]]
 
 ---
