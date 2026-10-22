@@ -11,6 +11,7 @@ back: [[linear-regression]]
 next:
 - [[derivative]]
 - [[chain-rule]]
+- [[partial-derivative]]
 - [[mse]]
 - [[learning-rate]]
 - [[epochs]]
@@ -37,17 +38,7 @@ $J(m)$ — кривая. Её производная $\frac{dJ}{dm}$ — **то�
 
 ## Вычисление производной
 
-$m$ влияет на ошибку не напрямую, а цепочкой: $m \to \hat y \to$ промах $\to$ квадрат. Производная по цепочке = произведение множителей звеньев → [[chain-rule]].
-
-Для одной точки $(x_i, y_i)$:
-
-$$\frac{\partial}{\partial m}(y_i - \hat y_i)^2 = \underbrace{2(y_i - \hat y_i)}_{\text{квадрат}} \cdot \underbrace{(-1)}_{\text{промах}} \cdot \underbrace{x_i}_{\hat y = m x + b}$$
-
-$$\frac{\partial}{\partial b}(y_i - \hat y_i)^2 = 2(y_i - \hat y_i) \cdot (-1) \cdot \underbrace{1}_{\hat y = m x + b}$$
-
-Разница только в последнем множителе: насколько $\hat y$ меняется при сдвиге параметра.
-- $m$ на $+1$ → $\hat y$ на $+x_i$ (точка с большим $x$ сильнее реагирует на наклон)
-- $b$ на $+1$ → $\hat y$ на $+1$ всегда
+Ошибка $(y_i - (m x_i + b))^2$ = квадрат (внешняя) от промаха (внутренняя) → производная = внешняя × внутренняя → [[chain-rule]]. Внутреннюю берём отдельно по $m$ и по $b$ → [[partial-derivative]].
 
 Усредняем по всем точкам (как в ML Cheatsheet):
 
