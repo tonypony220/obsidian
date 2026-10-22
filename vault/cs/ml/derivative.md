@@ -8,6 +8,7 @@ date: 2026-04-12
 
 moc: [[ml-moc]]
 next:
+- [[chain-rule]]
 - [[gradient-descent]]
 - [[optimizers-gd-vs-lbfgs]]
 - [[learning-rate]]
