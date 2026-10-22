@@ -7,19 +7,14 @@ date: 2026-04-12
 # Производная
 
 moc: [[ml-moc]]
-next: [[optimizers-gd-vs-lbfgs]] [[learning-rate]]
+next:
+- [[gradient-descent]]
+- [[optimizers-gd-vs-lbfgs]]
+- [[learning-rate]]
 
 ---
 
-```
-  loss
-   │       ╭──╮
-   │      ╱    ╲
-   │  ╱──╱      ·  tangent
-   │ /  · ─────/── slope = dy/dx
-   │/
-   └──────────────── w
-```
+![[derivative-tangent.png]]
 
 Отношение: насколько изменился выход при маленьком изменении входа.
 
