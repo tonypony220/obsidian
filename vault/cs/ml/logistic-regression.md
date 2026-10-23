@@ -10,6 +10,7 @@ moc: [[ml-moc]]
 back: [[linear-regression]]
 next:
 - [[sigmoid]]
+- [[decision-boundary]]
 - [[svm]]
 - [[random-forest]]
 - [[centroid]]
