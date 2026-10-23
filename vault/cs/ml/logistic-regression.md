@@ -8,7 +8,13 @@ date: 2026-04-10
 
 moc: [[ml-moc]]
 back: [[linear-regression]]
-next: [[svm]] [[random-forest]] [[centroid]] [[confusion-matrix]] [[score-distribution]]
+next:
+- [[sigmoid]]
+- [[svm]]
+- [[random-forest]]
+- [[centroid]]
+- [[confusion-matrix]]
+- [[score-distribution]]
 
 ---
 

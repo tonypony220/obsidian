@@ -26,6 +26,7 @@ date: 2026-04-12
 ## Классификация
 
 - [[logistic-regression]] — базовый классификатор, softmax для мультикласса
+- [[sigmoid]] — z → вероятность; logit, производная, tanh
 - [[svm]] — Support Vector Machine, максимизация отступа
 - [[random-forest]] — ансамбль деревьев решений
 - [[llm-vs-embeddings-classification]] — когда LLM, когда эмбеддинги
