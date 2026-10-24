@@ -9,6 +9,7 @@ date: 2026-10-23
 moc: [[ml-moc]]
 back: [[logistic-regression]]
 next:
+- [[log-loss]]
 - [[decision-boundary]]
 - [[linear-regression]]
 - [[derivative]]

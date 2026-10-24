@@ -12,6 +12,7 @@ next:
 - [[sigmoid]]
 - [[why-linear-model]]
 - [[decision-boundary]]
+- [[log-loss]]
 - [[svm]]
 - [[random-forest]]
 - [[centroid]]

@@ -29,6 +29,7 @@ date: 2026-04-12
 - [[why-linear-model]] — линейная форма = выбор; учатся только $w, b$; сигмоида выводится
 - [[sigmoid]] — z → вероятность; logit, производная, tanh
 - [[decision-boundary]] — прямая w·x + b = 0 разделяет классы
+- [[log-loss]] — штраф −ln(вероятность правильного ответа)
 - [[svm]] — Support Vector Machine, максимизация отступа
 - [[random-forest]] — ансамбль деревьев решений
 - [[llm-vs-embeddings-classification]] — когда LLM, когда эмбеддинги
