@@ -13,6 +13,7 @@ next:
 - [[sigmoid]]
 - [[chain-rule]]
 - [[gradient-descent]]
+- [[logistic-regression-training]]
 
 ---
 
@@ -72,6 +73,8 @@ $$\frac{\partial\, \text{MSE}}{\partial z} \propto (h - y)\cdot h\,(1 - h)$$
 
 ## Один студент, один вес
 
+> Учебная лупа, не обучение: видно, что наклон = $(h - y)\,x$. Спуск здесь возможен, но дна нет → $w$ растёт бесконечно.
+
 ![[logreg-one-student.png]]
 
 $b = 0$, признак $x = 2$. Штраф как функция $w$:
@@ -101,28 +104,9 @@ $b = 0$, признак $x = 2$. Штраф как функция $w$:
 
 > ⚠️ Если классы разделяются идеально, дна нет: $J \to 0$ при $w \to \infty$, веса растут бесконечно. Лечится регуляризацией ([[lambda-regularization]]) или ограничением числа эпох.
 
-## Шаг спуска
+## Дальше: обучение
 
-Среднее по $N$ студентам, признаков несколько → для каждого веса $w_j$ свой признак $x_{ij}$:
-
-$$\frac{\partial J}{\partial w_j} = \frac1N \sum_{i=1}^{N} (h_i - y_i)\, x_{ij} \qquad \frac{\partial J}{\partial b} = \frac1N \sum_{i=1}^{N} (h_i - y_i)$$
-
-$$w_j \leftarrow w_j - \alpha \frac{\partial J}{\partial w_j} \qquad b \leftarrow b - \alpha \frac{\partial J}{\partial b}$$
-
-## Код
-
-```python
-for epoch in range(n_epochs):
-    z = X @ w + b            # очки всех студентов
-    h = sigmoid(z)           # ← единственное отличие от линейной регрессии
-    err = h - y              # промах
-    dw = X.T @ err / N       # (h − y)·x_j, усреднённо, для каждого признака
-    db = err.mean()
-    w -= lr * dw
-    b -= lr * db
-```
-
-vs линейная регрессия: + `sigmoid`, − двойка (у log-loss её нет). $J$ в цикле не нужен — только для графика сходимости.
+Все частные производные → один шаг для всех параметров → повторить. Цикл целиком и две эпохи на числах → [[logistic-regression-training]].
 
 ## Источник
 

@@ -13,7 +13,7 @@ next:
 - [[mse]]
 - [[least-squares-from-likelihood]]
 - [[logistic-regression-gradient]]
-- [[gradient-descent]]
+- [[logistic-regression-training]]
 
 ---
 
@@ -65,12 +65,7 @@ $$J(w, b) = -\frac{1}{N} \sum_{i=1}^{N} \big[\, y_i \ln h_i + (1 - y_i) \ln(1 - 
 
 ## Почему не MSE
 
-Подробно с картинкой → [[logistic-regression-gradient]].
-
-
-- $(y - h)^2$ при уверенной ошибке не больше $1$ → слабый сигнал
-- MSE + сигмоида → поверхность ошибки с плато, градиент ≈ 0 вдали от ответа, спуск застревает
-- Log-loss + сигмоида → гладкая чаша (выпуклая), один минимум
+MSE + сигмоида → градиент гаснет при уверенной ошибке. Разбор с картинкой → [[logistic-regression-gradient]].
 
 ## В коде
 
