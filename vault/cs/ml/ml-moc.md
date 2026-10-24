@@ -30,6 +30,7 @@ date: 2026-04-12
 - [[sigmoid]] — z → вероятность; logit, производная, tanh
 - [[decision-boundary]] — прямая w·x + b = 0 разделяет классы
 - [[log-loss]] — штраф −ln(вероятность правильного ответа)
+- [[logistic-regression-gradient]] — цепочка, сокращение h(1−h), (h − y)·x
 - [[svm]] — Support Vector Machine, максимизация отступа
 - [[random-forest]] — ансамбль деревьев решений
 - [[llm-vs-embeddings-classification]] — когда LLM, когда эмбеддинги

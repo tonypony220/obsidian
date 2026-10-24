@@ -1,0 +1,98 @@
+---
+title: Градиент логистической регрессии
+tags: [concept, ml, training]
+date: 2026-10-24
+---
+
+# Градиент логистической регрессии
+
+moc: [[ml-moc]]
+back: [[logistic-regression]]
+next:
+- [[log-loss]]
+- [[sigmoid]]
+- [[chain-rule]]
+- [[gradient-descent]]
+
+---
+
+![[logreg-gradient-vs-mse.png]]
+
+**TL;DR:** по цепочке $w \to z \to h \to$ штраф производные $\ln$ и сигмоиды взаимно сокращаются, остаётся $\frac{\partial}{\partial w} = (h - y)\,x$ — та же форма «промах × участие», что в линейной регрессии. Поэтому сигнал не гаснет даже при уверенной ошибке (синяя кривая), в отличие от MSE (красная).
+
+## Цепочка
+
+Штраф одного студента ([[log-loss]]):
+
+$$L = -\big[\, y \ln h + (1 - y) \ln(1 - h) \,\big], \qquad h = \sigma(z), \qquad z = w x + b$$
+
+$$w \;\longrightarrow\; z \;\longrightarrow\; h \;\longrightarrow\; L$$
+
+Производная = произведение производных звеньев → [[chain-rule]]:
+
+$$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial h} \cdot \frac{\partial h}{\partial z} \cdot \frac{\partial z}{\partial w}$$
+
+## Звенья
+
+**1. Штраф по $h$** (используем $(\ln t)' = \frac1t$ и $(\ln(1-t))' = -\frac{1}{1-t}$):
+
+$$\frac{\partial L}{\partial h} = -\frac{y}{h} + \frac{1 - y}{1 - h} = \frac{h - y}{h\,(1 - h)}$$
+
+**2. Сигмоида по $z$** ([[sigmoid]]):
+
+$$\frac{\partial h}{\partial z} = h\,(1 - h)$$
+
+**3. Очки по параметрам** (как в [[linear-regression]], [[partial-derivative]]):
+
+$$\frac{\partial z}{\partial w} = x \qquad \frac{\partial z}{\partial b} = 1$$
+
+## Сокращение
+
+$$\frac{\partial L}{\partial w} = \frac{h - y}{\cancel{h\,(1 - h)}} \cdot \cancel{h\,(1 - h)} \cdot x = (h - y)\,x \qquad \frac{\partial L}{\partial b} = h - y$$
+
+Знаменатель звена 1 = числитель звена 2. Пару сигмоида + log-loss выбирают в том числе ради этого (см. «Выбор, а не случайность» в [[sigmoid]]).
+
+## Смысл
+
+$h - y$ — промах (сказала модель − правда), $x$ — участие признака.
+
+| Правда $y$ | Модель $h$ | $h - y$ | Что делать с $w$ (при $x > 0$) |
+|---|---|---|---|
+| 1 | 0.2 | −0.8 | увеличить |
+| 0 | 0.95 | +0.95 | уменьшить |
+| 1 | 0.99 | −0.01 | почти не трогать |
+
+## Почему не MSE (картинка)
+
+С MSE звено 1 было бы $2(h - y)$ — без $h(1-h)$ в знаменателе. Тогда сигмоидный множитель **не сокращается**:
+
+$$\frac{\partial\, \text{MSE}}{\partial z} \propto (h - y)\cdot h\,(1 - h)$$
+
+При уверенной ошибке ($z \ll 0$, $y = 1$) $h \approx 0$ → $h(1-h) \approx 0$ → градиент ≈ 0 → спуск застревает именно там, где ошибка максимальна. У log-loss множитель сократился → сигнал $\approx 1$.
+
+## Шаг спуска
+
+Среднее по $N$ студентам, признаков несколько → для каждого веса $w_j$ свой признак $x_{ij}$:
+
+$$\frac{\partial J}{\partial w_j} = \frac1N \sum_{i=1}^{N} (h_i - y_i)\, x_{ij} \qquad \frac{\partial J}{\partial b} = \frac1N \sum_{i=1}^{N} (h_i - y_i)$$
+
+$$w_j \leftarrow w_j - \alpha \frac{\partial J}{\partial w_j} \qquad b \leftarrow b - \alpha \frac{\partial J}{\partial b}$$
+
+## Код
+
+```python
+for epoch in range(n_epochs):
+    z = X @ w + b            # очки всех студентов
+    h = sigmoid(z)           # ← единственное отличие от линейной регрессии
+    err = h - y              # промах
+    dw = X.T @ err / N       # (h − y)·x_j, усреднённо, для каждого признака
+    db = err.mean()
+    w -= lr * dw
+    b -= lr * db
+```
+
+vs линейная регрессия: + `sigmoid`, − двойка (у log-loss её нет). $J$ в цикле не нужен — только для графика сходимости.
+
+## Источник
+
+- [ML Cheatsheet — Logistic Regression, Gradient descent](https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#gradient-descent)

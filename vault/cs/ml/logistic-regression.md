@@ -13,6 +13,7 @@ next:
 - [[why-linear-model]]
 - [[decision-boundary]]
 - [[log-loss]]
+- [[logistic-regression-gradient]]
 - [[svm]]
 - [[random-forest]]
 - [[centroid]]

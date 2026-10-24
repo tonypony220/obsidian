@@ -12,6 +12,7 @@ next:
 - [[sigmoid]]
 - [[mse]]
 - [[least-squares-from-likelihood]]
+- [[logistic-regression-gradient]]
 - [[gradient-descent]]
 
 ---
@@ -63,6 +64,9 @@ $$J(w, b) = -\frac{1}{N} \sum_{i=1}^{N} \big[\, y_i \ln h_i + (1 - y_i) \ln(1 - 
 - Глубже: среднее $-\ln$ = минус логарифм правдоподобия (вероятность увидеть все ответы $= \prod p_i$, логарифм → сумма) — тот же рецепт, что дал МНК → [[least-squares-from-likelihood]]
 
 ## Почему не MSE
+
+Подробно с картинкой → [[logistic-regression-gradient]].
+
 
 - $(y - h)^2$ при уверенной ошибке не больше $1$ → слабый сигнал
 - MSE + сигмоида → поверхность ошибки с плато, градиент ≈ 0 вдали от ответа, спуск застревает
