@@ -13,6 +13,7 @@ next:
 - [[linear-regression]]
 - [[derivative]]
 - [[chain-rule]]
+- [[why-linear-model]]
 
 ---
 
@@ -129,6 +130,7 @@ $z = 1.39$: odds $= e^{1.39} \approx 4$ → $p = \frac{4}{4 + 1} = 0.8$; и $\si
 
 $$\underbrace{z = w x + b \in (-\infty, +\infty)}_{\text{дано: линейные очки}} \;\xrightarrow{\text{выбор}}\; z = \log\frac{p}{1-p} \;\xrightarrow{e^{(\cdot)}}\; \frac{p}{1-p} = e^{z} \;\xrightarrow{\text{алгебра}}\; p = \frac{1}{1 + e^{-z}} = \sigma(z)$$
 
+- Почему вообще линейная $w x + b$ — тоже выбор → [[why-linear-model]]
 - Решение одно — **выбор**: «очки = логарифм шансов». Дальше только алгебра → сигмоида неизбежна
 - Можно было иначе: любая гладкая $(-\infty, \infty) \to (0, 1)$. Пример — **probit**: $p = \Phi(z)$, накопленный гауссов колокол; почти та же S-кривая
 - Почему стандарт — log-odds:

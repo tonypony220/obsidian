@@ -10,6 +10,7 @@ moc: [[ml-moc]]
 back: [[linear-regression]]
 next:
 - [[sigmoid]]
+- [[why-linear-model]]
 - [[decision-boundary]]
 - [[svm]]
 - [[random-forest]]
@@ -35,6 +36,8 @@ next:
 ```
 score = w1·x1 + w2·x2 + ... + w768·x768 + bias
 ```
+
+Линейная форма — наш выбор, не математическая необходимость; линеен log-odds, а не вероятность → [[why-linear-model]]
 
 На выходе — число от 0 до 1 (вероятность класса A). Чем ближе к 1 — тем увереннее модель что это класс A, чем ближе к 0 — класс B.
 
