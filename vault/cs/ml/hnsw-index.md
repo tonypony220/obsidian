@@ -10,6 +10,7 @@ moc: [[ml-moc]]
 next:
 - [[ivf-index]]
 - [[recall]]
+- [[dense-retrieval-embeddings]]
 
 ---
 
