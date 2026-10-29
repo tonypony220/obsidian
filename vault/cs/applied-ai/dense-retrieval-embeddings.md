@@ -7,7 +7,7 @@ date: 2026-10-29
 # Dense retrieval (поиск по эмбеддингам)
 
 moc: [[applied-ai-moc]]
-back: [[bm25]]
+back: [[retrieval]]
 next:
 - [[hybrid-search-rrf]]
 - [[hnsw-index]]
