@@ -12,6 +12,7 @@ next:
 - [[iterative-retrieval]]
 - [[hybrid-search-rrf]]
 - [[neuro-symbolic-evaluation]]
+- [[claims]]
 
 ---
 

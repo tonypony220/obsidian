@@ -11,6 +11,7 @@ back: [[query-decomposition]]
 next:
 - [[react-agentic-search]]
 - [[retrieval]]
+- [[evidence-sufficiency-stopping]]
 
 ---
 

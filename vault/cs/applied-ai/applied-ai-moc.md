@@ -20,6 +20,7 @@ date: 2026-10-29
 - [[hybrid-search-rrf]] — BM25 + dense, склейка рангов через RRF
 - [[reranking-cross-encoder]] — второй этап: cross-encoder читает запрос и кусок вместе
 - [[retrieval-metrics]] — recall@k, precision@k, MRR, nDCG, evidence recall
+- [[rag-benchmarks]] — HERB, oracle evidence как потолок, FEVER/HoVer
 
 ## Стратегии сбора доказательств
 
@@ -29,6 +30,8 @@ date: 2026-10-29
 - [[react-agentic-search]] — агент сам выбирает инструменты в цикле
 - [[long-context-reading]] — документы целиком в контекст, без поиска фрагментов
 - [[exhaustive-scan]] — map-reduce по каждому куску, без top-k
+- [[claims]] — атомарные проверяемые утверждения: вопрос → чек-лист
+- [[evidence-sufficiency-stopping]] — когда хватит искать: HALT, S2G-RAG
 
 ## Решение
 
