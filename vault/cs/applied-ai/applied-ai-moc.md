@@ -12,10 +12,14 @@ date: 2026-10-29
 ## Поиск (retrieval)
 
 - [[retrieval]] — что такое поиск вообще, семейства методов
+- [[rag]] — retrieve → generate, весь пайплайн и его слабость
+- [[chunking]] — нарезка документов, размер и границы кусков
 
 - [[bm25]] — лексический поиск: точные слова, редкость слова, длина документа
 - [[dense-retrieval-embeddings]] — поиск по смыслу: текст → вектор → косинус
 - [[hybrid-search-rrf]] — BM25 + dense, склейка рангов через RRF
+- [[reranking-cross-encoder]] — второй этап: cross-encoder читает запрос и кусок вместе
+- [[retrieval-metrics]] — recall@k, precision@k, MRR, nDCG, evidence recall
 
 ## Стратегии сбора доказательств
 
@@ -28,13 +32,6 @@ date: 2026-10-29
 
 ## Решение
 
+- [[structured-extraction]] — LLM заполняет схему: значение, цитата, страница
 - [[neuro-symbolic-evaluation]] — LLM извлекает факты, код решает
-
-## Дальше (план)
-
-- [[chunking]] — зачем резать документы и что теряется на границах
-- [[reranking-cross-encoder]] — второй этап: bi- vs cross-encoder
-- [[rag]] — retrieve → generate
-- [[retrieval-metrics]] — recall@k, MRR, nDCG, evidence recall
-- [[structured-extraction]] — схема + цитаты
 - [[abstention-needs-review]] — «нет доказательства» ≠ «доказано, что нет»

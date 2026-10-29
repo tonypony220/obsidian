@@ -11,6 +11,8 @@ back: [[exhaustive-scan]]
 next:
 - [[query-decomposition]]
 - [[pure-functions]]
+- [[structured-extraction]]
+- [[abstention-needs-review]]
 
 ---
 

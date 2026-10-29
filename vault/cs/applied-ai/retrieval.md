@@ -13,6 +13,8 @@ next:
 - [[hybrid-search-rrf]]
 - [[query-decomposition]]
 - [[long-context-reading]]
+- [[rag]]
+- [[chunking]]
 
 ---
 
