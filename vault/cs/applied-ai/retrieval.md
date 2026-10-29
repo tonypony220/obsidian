@@ -11,6 +11,8 @@ next:
 - [[bm25]]
 - [[dense-retrieval-embeddings]]
 - [[hybrid-search-rrf]]
+- [[query-decomposition]]
+- [[long-context-reading]]
 
 ---
 
