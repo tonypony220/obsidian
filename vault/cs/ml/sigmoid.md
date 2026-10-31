@@ -15,6 +15,7 @@ next:
 - [[derivative]]
 - [[chain-rule]]
 - [[why-linear-model]]
+- [[logreg-to-llm]]
 
 ---
 

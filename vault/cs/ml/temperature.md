@@ -12,6 +12,7 @@ next:
 - [[softmax]]
 - [[sigmoid]]
 - [[logistic-regression]]
+- [[logreg-to-llm]]
 
 ---
 

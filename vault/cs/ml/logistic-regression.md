@@ -20,6 +20,7 @@ next:
 - [[centroid]]
 - [[confusion-matrix]]
 - [[score-distribution]]
+- [[logreg-to-llm]]
 
 ---
 

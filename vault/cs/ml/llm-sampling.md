@@ -12,6 +12,7 @@ next:
 - [[temperature]]
 - [[softmax]]
 - [[seed]]
+- [[logreg-to-llm]]
 
 ---
 
