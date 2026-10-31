@@ -9,6 +9,7 @@ date: 2026-04-10
 moc: [[ml-moc]]
 back: [[linear-regression]]
 next:
+- [[one-vs-all]]
 - [[why-linear-model]]
 - [[sigmoid]]
 - [[decision-boundary]]

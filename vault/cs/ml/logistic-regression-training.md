@@ -9,6 +9,7 @@ date: 2026-10-24
 moc: [[ml-moc]]
 back: [[logistic-regression]]
 next:
+- [[one-vs-all]]
 - [[log-loss]]
 - [[logistic-regression-gradient]]
 - [[gradient-descent]]
