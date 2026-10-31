@@ -15,6 +15,7 @@ next:
 - [[logistic-regression-gradient]]
 - [[logistic-regression-training]]
 - [[logreg-to-llm]]
+- [[softmax]]
 
 ---
 

@@ -22,6 +22,7 @@ next:
 - [[confusion-matrix]]
 - [[score-distribution]]
 - [[logreg-to-llm]]
+- [[softmax]]
 
 ---
 

@@ -16,6 +16,7 @@ next:
 - [[chain-rule]]
 - [[why-linear-model]]
 - [[logreg-to-llm]]
+- [[softmax]]
 
 ---
 
