@@ -7,8 +7,8 @@ date: 2026-10-31
 # Argmax — какой вариант победил
 
 moc: [[ml-moc]]
-back: [[one-vs-all]]
 next:
+- [[one-vs-all]]
 - [[softmax]]
 - [[llm-sampling]]
 - [[temperature]]
@@ -36,7 +36,7 @@ $s_k$ — балл (score) или вероятность класса $k$. Чи�
 
 | Где | По чему берут argmax |
 |---|---|
-| [[one-vs-all]] | 4 независимые $h_k$, сумма ≠ 1 — неважно |
+| [[one-vs-all]] | 4 независимые $h_k$ |
 | softmax-классификатор | проценты из [[softmax]] |
 | LLM, greedy-режим | вероятности всех токенов словаря ([[llm-sampling]]) |
 
