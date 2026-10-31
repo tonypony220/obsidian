@@ -13,6 +13,7 @@ next:
 - [[softmax]]
 - [[seed]]
 - [[logreg-to-llm]]
+- [[argmax]]
 
 ---
 

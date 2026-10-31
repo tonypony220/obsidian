@@ -35,6 +35,7 @@ Applied AI (поиск, RAG, извлечение фактов): [[applied-ai-mo
 - [[logistic-regression-gradient]] — цепочка, сокращение h(1−h), (h − y)·x
 - [[logistic-regression-training]] — цикл обучения: промахи → градиент → шаг всех параметров
 - [[one-vs-all]] — N бинарных моделей «класс vs остальные», predict = argmax
+- [[argmax]] — не наибольшее число, а кто его дал; не меняется от softmax и температуры
 - [[svm]] — Support Vector Machine, максимизация отступа
 - [[random-forest]] — ансамбль деревьев решений
 - [[llm-vs-embeddings-classification]] — когда LLM, когда эмбеддинги

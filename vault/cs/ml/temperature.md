@@ -13,6 +13,7 @@ next:
 - [[sigmoid]]
 - [[logistic-regression]]
 - [[logreg-to-llm]]
+- [[argmax]]
 
 ---
 
