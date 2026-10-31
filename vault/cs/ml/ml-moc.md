@@ -29,6 +29,7 @@ Applied AI (поиск, RAG, извлечение фактов): [[applied-ai-mo
 - [[logistic-regression]] — базовый классификатор, softmax для мультикласса
 - [[why-linear-model]] — линейная форма = выбор; учатся только $w, b$; сигмоида выводится
 - [[sigmoid]] — z → вероятность; logit, производная, tanh
+- [[logit]] — ln шансов vs «сырой балл» в ML; разница баллов = ln отношения вероятностей
 - [[decision-boundary]] — прямая w·x + b = 0 разделяет классы
 - [[log-loss]] — штраф −ln(вероятность правильного ответа)
 - [[logistic-regression-gradient]] — цепочка, сокращение h(1−h), (h − y)·x

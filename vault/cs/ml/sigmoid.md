@@ -9,6 +9,7 @@ date: 2026-10-23
 moc: [[ml-moc]]
 back: [[logistic-regression]]
 next:
+- [[logit]]
 - [[log-loss]]
 - [[decision-boundary]]
 - [[linear-regression]]
@@ -99,7 +100,7 @@ $z = w x + b$ — любое число $(-\infty, +\infty)$. С чем его �
 
 $\ln$ растягивает $(0, \infty)$ на всю прямую: odds $= 1 \to 0$, больше 1 → плюс, меньше 1 → минус.
 
-Договариваемся: **очки $z$ = логарифм шансов** (logit):
+Договариваемся: **очки $z$ = логарифм шансов** ([[logit]]):
 
 $$z = \ln \frac{p}{1 - p}$$
 
