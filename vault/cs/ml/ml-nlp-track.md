@@ -34,6 +34,7 @@ next:
 ### A1. Какие задачи решают
 - [ ] [[ml-task-types]] — классификация, регрессия, кластеризация
 - [ ] 🔗 [[logistic-regression]], [[svm]], [[random-forest]] — примеры классификаторов
+- [ ] [[softmax]] — логрег на много классов: логиты → вероятности (мост к LLM)
 - [ ] 🔗 [[centroid]] — простейшая модель «ближайший центр» (пригодится в Блоке B)
 
 ### A2. Обучение, валидация, тест
@@ -66,7 +67,10 @@ next:
 - [ ] [[information-extraction]] — сущности и структурированные данные
 
 ### B4. LLM
+- [ ] [[neural-networks]] — логрег, у которой признаки выучены слоями
 - [ ] [[transformers]] — attention и генерация токен за токеном
+- [ ] 🔗 [[llm-sampling]] — выход трансформера = softmax по словарю, токен выбирается случайно
+- [ ] 🔗 [[temperature]] — деление логитов на T перед softmax
 - [ ] [[context-window]] — что модель видит за один вызов
 - [ ] [[prompting-vs-rag-vs-finetuning]] — как дать модели знания и поведение
 
@@ -79,9 +83,10 @@ next:
 | [[embeddings]] | [[tokenization]] |
 | [[semantic-search]] | [[embeddings]] |
 | [[text-classification]] | [[ml-task-types]], [[embeddings]], метрики из A3 |
-| [[transformers]] | [[tokenization]], [[embeddings]] |
+| [[transformers]] | [[tokenization]], [[embeddings]], [[neural-networks]] |
+| [[llm-sampling]], [[temperature]] | [[softmax]], [[transformers]] |
 | [[prompting-vs-rag-vs-finetuning]] | [[context-window]], [[semantic-search]] |
 
 ## Пробелы
 
-Отдельных заметок пока нет: кластеризация (алгоритмы, k-means), TF-IDF, BM25 и гибридный поиск, метрики регрессии, chunking. Заводить по мере необходимости.
+Отдельных заметок пока нет: кластеризация (алгоритмы, k-means), TF-IDF, метрики регрессии. BM25, гибридный поиск, chunking → [[applied-ai-moc]]. Заводить по мере необходимости.
