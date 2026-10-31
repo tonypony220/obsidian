@@ -15,6 +15,7 @@ next:
 - [[temperature]]
 - [[argmax]]
 - [[one-vs-all]]
+- [[softmax-regression-step]]
 
 ---
 

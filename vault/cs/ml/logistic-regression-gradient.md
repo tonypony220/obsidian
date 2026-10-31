@@ -14,6 +14,7 @@ next:
 - [[chain-rule]]
 - [[gradient-descent]]
 - [[logistic-regression-training]]
+- [[softmax-regression-step]]
 
 ---
 
