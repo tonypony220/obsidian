@@ -28,6 +28,8 @@ next:
 
 $$L = -\big[\, y \ln h + (1 - y) \ln(1 - h) \,\big], \qquad h = \sigma(z), \qquad z = w x + b$$
 
+$h$ = $p$ — вероятность «да», которую выдаёт модель → [[sigmoid#Зачем]].
+
 $$w \;\longrightarrow\; z \;\longrightarrow\; h \;\longrightarrow\; L$$
 
 Производная = произведение производных звеньев → [[chain-rule]]:
