@@ -9,6 +9,7 @@ date: 2026-10-23
 moc: [[ml-moc]]
 back: [[logistic-regression]]
 next:
+- [[euler-number]]
 - [[softmax-regression-step]]
 - [[logit]]
 - [[log-loss]]
