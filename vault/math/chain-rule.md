@@ -6,7 +6,7 @@ date: 2026-10-22
 
 # Правило цепочки
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 back: [[derivative]]
 next:
 - [[partial-derivative]]

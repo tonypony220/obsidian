@@ -6,7 +6,7 @@ date: 2026-04-10
 
 # Центроид
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 next:
 - [[differential-score]]
 - [[logistic-regression]]

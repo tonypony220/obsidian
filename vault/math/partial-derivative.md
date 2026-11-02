@@ -6,7 +6,7 @@ date: 2026-10-22
 
 # Частная производная
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 back: [[derivative]]
 next:
 - [[chain-rule]]

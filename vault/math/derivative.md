@@ -6,7 +6,7 @@ date: 2026-04-12
 
 # Производная
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 next:
 - [[chain-rule]]
 - [[partial-derivative]]

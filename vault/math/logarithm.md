@@ -6,7 +6,7 @@ date: 2026-11-02
 
 # Логарифм — какую степень взять
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 next:
 - [[euler-number]]
 - [[log-loss]]

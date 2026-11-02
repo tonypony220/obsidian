@@ -6,7 +6,7 @@ date: 2026-10-31
 
 # Argmax — какой вариант победил
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 next:
 - [[one-vs-all]]
 - [[softmax]]

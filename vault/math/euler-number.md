@@ -6,7 +6,7 @@ date: 2026-11-02
 
 # Число e — откуда берётся 2.718
 
-moc: [[ml-moc]]
+moc: [[math-moc]]
 next:
 - [[logarithm]]
 - [[sigmoid]]
