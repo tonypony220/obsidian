@@ -13,6 +13,7 @@ next:
 - [[hybrid-search-rrf]]
 - [[reranking-cross-encoder]]
 - [[long-context-reading]]
+- [[rag-failure-diagnosis]]
 
 ---
 

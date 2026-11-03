@@ -21,6 +21,7 @@ date: 2026-10-29
 - [[reranking-cross-encoder]] — второй этап: cross-encoder читает запрос и кусок вместе
 - [[retrieval-metrics]] — recall@k, precision@k, MRR, nDCG, evidence recall
 - [[rag-benchmarks]] — HERB, oracle evidence как потолок, FEVER/HoVer
+- [[rag-failure-diagnosis]] — на какой стадии потерялся ответ и что чинить
 - [[rag-eval-set-freeze]] — набор вопросов заморожен до правок, dev vs held-out, подгонка под eval
 
 ## Стратегии сбора доказательств
