@@ -13,6 +13,7 @@ next:
 - [[reranking-cross-encoder]]
 - [[abstention-needs-review]]
 - [[rag-benchmarks]]
+- [[rag-eval-set-freeze]]
 
 ---
 
